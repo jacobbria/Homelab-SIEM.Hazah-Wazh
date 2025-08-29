@@ -1,2 +1,5 @@
 # Homelab-SIEM.Hazah-Wazh
-Deploying Wazuh Manager/Agent. Gain practical experience with SIEM Capabilities and common excerices.
+Short Description: Deploying Wazuh Manager/Agent to gain hands-on experience with SIEM platform.
+-----------------------------------------------------------------------------------------------
+
+Hello and welcome to my home lab repo. Located here will be files, writings, and links to resources.
