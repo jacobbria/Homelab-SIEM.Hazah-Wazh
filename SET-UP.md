@@ -2,37 +2,33 @@
 
   ## Initial Set-up
 
-| Resources Used |
-|----------|
-| [Wazuh Documentation](https://documentation.wazuh.com/current/quickstart.html) |
-| [Setup Your Own FREE SIEM at Home! - Wazuh (YouTube)](https://youtu.be/bltbJ2TUQWU?si=L07PNs15z8w26U6v) |
-| Gemini or ChatGPT (for basic scripts I didn’t know) |
-| Google, Google, and some more Google! |
-## Wazuh Server Set-Up
-
 <table>
 <tr>
   <td>
-
-### Wazuh Server Set-Up
-
+<div align="center">
+<h2>Wazuh Server </h2>
+</div>
+    
 | *Component*       | Specification |
 |-------------------|---------------|
 | *Operating System*| Ubuntu        |
 | *Disk (Storage)*  | 50 GB         |
 | *RAM*             | 8 GB          |
 | *Virtualization*  | VirtualBox    |
-
+  
   </td>
   <td>
 
-### Wazuh Agent Set-Up
+<div align="center">
+<h2>Wazuh Agent </h2>
+</div>
 
 | *Component*       | Specification |
 |-------------------|---------------|
 | *Operating System*| Windows 11    |
 | *Disk (Storage)*  | 1 TB          |
 | *RAM*             | 16 GB         |
+| *Virtualization*  | None    |
 
   </td>
 </tr>
@@ -58,3 +54,14 @@ dashboard. It will point the agent to server and provide you with the needed com
   I had to dig in to some configuration files on my agent to get machines to talk. They were able to ping
 each other so the issue was pointing to agent to the server in the ossec.conf file. After which - Hazzuh!
 My server sees and receives from the agent.
+
+<div align="center">
+
+| Resources Used |
+|----------|
+| [Wazuh Documentation](https://documentation.wazuh.com/current/quickstart.html) |
+| [Setup Your Own FREE SIEM at Home! - Wazuh (YouTube)](https://youtu.be/bltbJ2TUQWU?si=L07PNs15z8w26U6v) |
+| Gemini or ChatGPT (for basic scripts I didn’t know) |
+| Google, Google, and some more Google! |
+
+</div>
