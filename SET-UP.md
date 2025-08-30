@@ -10,20 +10,34 @@
 | Google, Google, and some more Google! |
 ## Wazuh Server Set-Up
 
-| *Component*         | Specification |
-|----------------------|---------------|
-| *Operating System*   | Ubuntu        |
-| *Disk (Storage)*     | 50 GB         |
-| *RAM*                | 8 GB          |
-| *Virtualization*     | VirtualBox    |
+<table>
+<tr>
+  <td>
 
-## Wazuh Agent Set-Up
+### Wazuh Server Set-Up
 
-| *Component*         | Specification |
-|----------------------|---------------|
-| *Operating System*   | Windows 11        |
-| *Disk (Storage)*     | 1 TB         |
-| *RAM*                | 16 GB          |
+| *Component*       | Specification |
+|-------------------|---------------|
+| *Operating System*| Ubuntu        |
+| *Disk (Storage)*  | 50 GB         |
+| *RAM*             | 8 GB          |
+| *Virtualization*  | VirtualBox    |
+
+  </td>
+  <td>
+
+### Wazuh Agent Set-Up
+
+| *Component*       | Specification |
+|-------------------|---------------|
+| *Operating System*| Windows 11    |
+| *Disk (Storage)*  | 1 TB          |
+| *RAM*             | 16 GB         |
+
+  </td>
+</tr>
+</table>
+
 
 </div>
 &emsp;The memory is pretty low and not what I would recommned for future projects. However, the host
