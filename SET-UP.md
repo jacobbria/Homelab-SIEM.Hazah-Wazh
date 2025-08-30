@@ -35,11 +35,7 @@
 </table>
 
 
-</div>
-&emsp;The memory is pretty low and not what I would recommned for future projects. However, the host
-machine is a laptop with limited memory and I didnt intend for large amounts of logs to be stored.
-It will do!
-
+</div> 
 
 &emsp;All things considered setting up the arichtecture wasnt too bad but it did require some 
 troubleshooting. Wazuh server gave me several issues when downloading and I didn't find
