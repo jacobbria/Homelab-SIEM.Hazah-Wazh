@@ -1,9 +1,8 @@
-<div align="center">
-
 &emsp;Wazuh provides some great resources for installing their system. Following that provided a mostly smooth process.
 However, I was having some issues related to getting the server installed on the Ubuntu VM. It took about 3-4 attempts 
 where I would install and recieve an error. Looking into the error logs wasn't too helpful but it was able to work after
 giving the VM about 20GB more disk space.
+<div align="center">
   ## Initial Set-up
 <table>
 <tr>
@@ -36,6 +35,7 @@ giving the VM about 20GB more disk space.
   </td>
 </tr>
 </table>
+</div> 
 &emsp;The agent installation went great. Wazuh provides an easy process. I did have to did into the ossec config files 
 to ensure my agent knew where to point. I was using different networks during this process so the machines were assigned 
 various IPS.
@@ -44,9 +44,6 @@ various IPS.
 prevents bidirectional communication between host and VM. Instead, using a bridged adapter allows the VM to be treated
 as its own device and assigned an IP. After using some netstat tools to ping and tracert packets between my laptop
 and VM, I was able to get the agent and VM talking.
-
-
-</div> 
 <div align="center">
 
 | Resources Used |
