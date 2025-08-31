@@ -3,7 +3,9 @@ However, I was having some issues related to getting the server installed on the
 where I would install and recieve an error. Looking into the error logs wasn't too helpful but it was able to work after
 giving the VM about 20GB more disk space.
 <div align="center">
+  
   ## Initial Set-up
+  
 <table>
 <tr>
   <td>
