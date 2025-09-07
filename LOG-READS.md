@@ -35,3 +35,7 @@ Also provided is the MITRE techniques and tactics most associated with the log e
 </p>
 It aligned perfectly as escalating to a local admin account gives attackers a better foothold to keep going up the chain. I'm just
 glad it was a simple *whoami* command. You can read more about the technique [here](https://attack.mitre.org/techniques/T1078/).
+
+<h1 align="center"> Part 2: A Slighly More Sophisticated Attack</h1>
+Let's see if we can detect activity in the different stages of the <a href="https://attack.mitre.org/">Cyber Kill-Chain</a>
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/19fdf6c8-6beb-418f-9266-b5dbced142bd" />
