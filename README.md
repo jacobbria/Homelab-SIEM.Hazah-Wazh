@@ -1,19 +1,19 @@
-# Homelab-SIEM.Hazah-Wazh
-Short Description: Deploying Wazuh Manager/Agent to gain hands-on experience with SIEM platform.
------------------------------------------------------------------------------------------------
-Hello! Welcome to my home lab repo. Located here will be files, writings, and links to resources used to practice with Wazuh.
+<div align="center">
+  
+<h1> SOC SIEM Practice - Wazuh </h1>
+Hello! This repo contains write ups, files, scripts, or other useful information as I dig into SIEM management for this home-lab.
 
-Hands-on experience to be gained in this project are as follows...
-1. SIEM server and agent set-up
-2. Log analysis
-3. Dashboard creation
-4. Vulnverability detection
-5. Security Configuration
+<h1> Goals </h1>
+<ul>
+  <li> Set up and configure SIEM Manager + Agents </li>
+  <li> Log generation and analysis </li>
+  <li>  Malware detection and removal</li>
+</ul>
 
-"Why Wazuh"
-Wazuh is an open source SIEM widely used by organizations of all sizes. It was a perfect choice to practice SIEM and XDR
-as its free, easily set-up, used in industry, and has a wide support base.
+<h1> Why Wazuh</h1>
+<img width="389" height="130" alt="image" src="https://github.com/user-attachments/assets/77276f6e-1a98-4748-b027-857ee76f43c6" />
 
+</div>
 
 
 
