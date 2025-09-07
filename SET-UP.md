@@ -21,23 +21,36 @@ giving the VM about 20GB more disk space.
 | *Virtualization*  | VirtualBox    |
   
   </td>
+<td>
+  <div align="center">
+  <h2>Wazuh Agent 1</h2>
+  </div>
+  
+  | *Component*       | Specification |
+  |-------------------|---------------|
+  | *Operating System*| Windows 11    |
+  | *Disk (Storage)*  | 1 TB          |
+  | *RAM*             | 16 GB         |
+  | *Virtualization*  | None    |
+
+  </td>
   <td>
-
-<div align="center">
-<h2>Wazuh Agent </h2>
-</div>
-
-| *Component*       | Specification |
-|-------------------|---------------|
-| *Operating System*| Windows 11    |
-| *Disk (Storage)*  | 1 TB          |
-| *RAM*             | 16 GB         |
-| *Virtualization*  | None    |
+  <div align="center">
+  <h2>Wazuh Agent 2</h2>
+  </div>
+  
+  | *Component*       | Specification |
+  |-------------------|---------------|
+  | *Operating System*| Windows 11    |
+  | *Disk (Storage)*  | 1 TB          |
+  | *RAM*             | 16 GB         |
+  | *Virtualization*  | None    |
 
   </td>
 </tr>
 </table>
 </div> 
+
 &emsp;The agent installation went great. Wazuh provides an easy process. I did have to did into the ossec config files 
 to ensure my agent knew where to point. I was using different networks during this process so the machines were assigned 
 various IPS.
