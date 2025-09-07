@@ -1,14 +1,37 @@
-We have communication between agent and server - lets generate some actions and get the log(s) rolling!
+<div align="center">
+  
+## LOG GENERATION & ANALYSIS
 
+We have communication between agents and server - lets generate some actions and get the log(s) rolling!
+<p align="center">
+  <img src="https://media1.tenor.com/m/8SwMrENO6AEAAAAC/pikachu-togepi.gif" width="300" alt="Pikachu Gif">
+</p>
+
+</div>
+<div align="center">
+  <h1> Part 1: Basic Log Generation </h1>
+</div>
+
+An easy one to start off with is an incorrect login from the physical device. Lets input the wrong password
+about 10 times
+
+ **TO DO** 
+ Insert a screenshot
+
+
+Now how about showing if someone was trying to access the device <i>internally</i>?  
 On the agent machine I started an elevated PowerShell session and ran the *whoami* command.  
-<img width="291" height="89" alt="image" src="https://github.com/user-attachments/assets/dc00a584-4d67-42ba-9981-665147e87493" />
-
+<p align="center">
+  <img width="291" height="89" alt="image" src="https://github.com/user-attachments/assets/dc00a584-4d67-42ba-9981-665147e87493" />
+</p>
 
 On our dashboard we can see a new log was generated detailing the event. Device name,
 IP, account name, channel used, and other important information can be found here in either
 a table format or the JSON it's sent in.
 
 Also provided is the MITRE techniques and tactics most associated with the log event. 
-<img width="780" height="125" alt="image" src="https://github.com/user-attachments/assets/119c8b87-bbbb-471d-ac6b-c658a040c5b3" />  
+<p align="center">
+  <img width="780" height="125" alt="image" src="https://github.com/user-attachments/assets/119c8b87-bbbb-471d-ac6b-c658a040c5b3" />  
+</p>
 It aligned perfectly as escalating to a local admin account gives attackers a better foothold to keep going up the chain. I'm just
 glad it was a simple *whoami* command. You can read more about the technique [here](https://attack.mitre.org/techniques/T1078/).
