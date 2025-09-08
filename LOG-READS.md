@@ -18,6 +18,9 @@ about 10 times
  **TO DO** 
  Insert a screenshot
 
+Wazuh querying is great - it uses a pretty standard format. Having used ServiceNow querying and SQL language before its a breeze!
+<img width="623" height="268" alt="image" src="https://github.com/user-attachments/assets/9c14c832-ffcb-423c-8c98-fdfde956e877" />
+
 
 Now how about showing if someone was trying to access the device <i>internally</i>?  
 On the agent machine I started an elevated PowerShell session and ran the *whoami* command.  
