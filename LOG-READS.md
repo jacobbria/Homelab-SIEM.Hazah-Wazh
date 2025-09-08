@@ -14,6 +14,8 @@ We have communication between agents and server - lets generate some actions and
 
 An easy one to start off with is an incorrect login from the physical device. Lets input the wrong password
 about 10 times
+<img width="882" height="192" alt="image" src="https://github.com/user-attachments/assets/0b45b0e8-c206-4d90-a432-b3893bc27afa" />
+
 
  **TO DO** 
  Insert a screenshot
