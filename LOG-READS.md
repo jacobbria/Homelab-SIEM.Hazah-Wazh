@@ -43,6 +43,14 @@ Also provided is the MITRE techniques and tactics most associated with the log e
 It aligned perfectly as escalating to a local admin account gives attackers a better foothold to keep going up the chain. I'm just
 glad it was a simple *whoami* command. You can read more about the technique [here](https://attack.mitre.org/techniques/T1078/).
 
+
 <h1 align="center"> Part 2: A Slighly More Sophisticated Attack</h1>
 Let's see if we can detect activity in the different stages of the <a href="https://attack.mitre.org/">Cyber Kill-Chain</a>
-<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/19fdf6c8-6beb-418f-9266-b5dbced142bd" />
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/19fdf6c8-6beb-418f-9266-b5dbced142bd" />  
+An attacker might start with a portscan as they begin their <b>reconaissance</b> to see any openings. To replicate this we will bootup a <b>Kali-Linux</b> instance
+and use the <a href="https://nmap.org/">nmap</a> tool.  
+<div align="center">
+  <img width="569" height="340" alt="image" src="https://github.com/user-attachments/assets/a8b8a1dd-c84f-4c9c-ab8a-f63574a0cbbf" />
+</div>
+After allowing logging in Windows Defender Firewall (for all network profiles as this communication comes via internal network) I able to ensure
+nmaps were being logged via pfirewall.log. Now, in Agent 1's ossec config file I added pfirewall logs were to be directed at my manager.
