@@ -53,4 +53,10 @@ and use the <a href="https://nmap.org/">nmap</a> tool.
   <img width="569" height="340" alt="image" src="https://github.com/user-attachments/assets/a8b8a1dd-c84f-4c9c-ab8a-f63574a0cbbf" />
 </div>
 After allowing logging in Windows Defender Firewall (for all network profiles as this communication comes via internal network) I able to ensure
-nmaps were being logged via pfirewall.log. Now, in Agent 1's ossec config file I added pfirewall logs were to be directed at my manager.
+nmap connections (and all connections thereafter) were being logged via pfirewall.log. Now, in Agent 1's ossec config file I added pfirewall logs were to be directed at my manager. 
+<a href="https://documentation.wazuh.com/current/user-manual/manager/event-logging.html">Enabling logging in my manager</a> showed that my manager was receiving the logs. Now, 
+Wazuh demands we create a custom decoder and rule set for it to trigger alerts or show in the discover dashboard.
+
+<div class="align"> 
+  <img width="1343" height="824" alt="image" src="https://github.com/user-attachments/assets/a9781246-9558-4399-a14d-cd382cf2ccb6" />
+</div>
