@@ -12,3 +12,5 @@ I need a way to detect port scans from Nnamp and send alerts to my endpoints SIE
   <h3>🐷 Detect Nmap port scans</h3>
   <h3>🐷 Pass logs to Wazuh for detection </h3>
  </div>
+
+This <a href="https://www.youtube.com/watch?v=UAKq1S-VxJ8">video</a> by Jon Good was followed for this set-up.
