@@ -19,7 +19,8 @@ This <a href="https://www.youtube.com/watch?v=RwWM0srLSg0&list=PLO0SXQmz3ypmofNF
 
 One area of difference, if you follow the tutorial video I referenced, is the fact that I'm using the community edition of rules. So, the snort.cof file will need
 to be slighly differet. Your $RULE_VAR will need to point to community.rules and all the additional rules included in the default file below $RULE_VAR\community.rules
-will need to be wiped.
+will need to be wiped. 
+Running <i>.\snort -i 5 -c c:\Snort\etc\snort.conf -A </i> will test our config files
 
 <div align="center">
   <img width="422" height="69" alt="image" src="https://github.com/user-attachments/assets/b1b99628-97a6-4522-b2da-a573b87a1e1f" />
