@@ -13,6 +13,7 @@ I need a way to detect port scans from Nnamp and send alerts to my endpoints SIE
   <h3>🐷 Pass logs to Wazuh for detection </h3>
  </div>
 
+<h1> </h1>
 This <a href="https://www.youtube.com/watch?v=RwWM0srLSg0&list=PLO0SXQmz3ypmofNFSPnRR7JbJmwvJPSWM&index=2">video</a> by Steve Gantz was followed for this set-up.
 
 
@@ -23,3 +24,19 @@ will need to be wiped as well.
 <div align="center">
   <img width="422" height="69" alt="image" src="https://github.com/user-attachments/assets/b1b99628-97a6-4522-b2da-a573b87a1e1f" />
 </div>
+
+Our test was successful. Let's ensure it's working with some custom rules
+
+<div align="center">
+  <img width="632" height="84" alt="image" src="https://github.com/user-attachments/assets/2e81ec95-8e8f-4b12-b588-e8fa4b1df06a" />
+</div>
+
+You can see I simply added these rules - syntax guidlines cound be found <a href="https://docs.snort.org/rules/">here</a> - into the existing community.rules. I
+could have, and likely will in the future, have created a local.rules which is the customary place to put local rules. 
+No we run <i> .\snort -i 5 -c c:\Snort\etc\snort.conf -A console </i> to start Snort up and output any alerts found unto our screen. 
+
+<div align="center">
+<img width="1455" height="140" alt="image" src="https://github.com/user-attachments/assets/aacf7e21-fdb4-48ce-b8b9-e8e7e509cee6" />
+</div>
+
+Success!
