@@ -40,4 +40,9 @@ No we run <i> .\snort -i 5 -c c:\Snort\etc\snort.conf -A console </i> to start S
 <img width="1455" height="140" alt="image" src="https://github.com/user-attachments/assets/aacf7e21-fdb4-48ce-b8b9-e8e7e509cee6" />
 </div>
 
-Success! Further pings from Agent B's Kali Linux instance were detected by Snort. We now need to get Snort logs to sent to my Wazub instance.
+Success! 
+<div align="center">
+<img width="498" height="308" alt="image" src="https://github.com/user-attachments/assets/6a9d7fdb-63a1-47c2-9ae8-f60a5d44cb11" />
+</div>
+
+Further pings from Agent B's Kali Linux instance were detected by Snort. We now need to get Snort logs to sent to my Wazub instance.
