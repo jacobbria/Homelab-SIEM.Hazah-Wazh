@@ -55,8 +55,17 @@ and use the <a href="https://nmap.org/">nmap</a> tool.
 After allowing logging in Windows Defender Firewall (for all network profiles as this communication comes via internal network) I able to ensure
 nmap connections (and all connections thereafter) were being logged via pfirewall.log. Now, in Agent 1's ossec config file I added pfirewall logs were to be directed at my manager. 
 <a href="https://documentation.wazuh.com/current/user-manual/manager/event-logging.html">Enabling logging in my manager</a> showed that my manager was receiving the logs. Now, 
-Wazuh demands we create a custom decoder and rule set for it to trigger alerts or show in the discover dashboard.
+Wazuh demands we create a <a href="https://github.com/jacobbria/Homelab-SIEM.Hazah-Wazh/blob/main/sideQuests/makingWazuhRules.md">custom decoder and rule set</a>a for it to trigger alerts or show in the discover dashboard. 
 
 <div class="align"> 
   <img width="1343" height="824" alt="image" src="https://github.com/user-attachments/assets/a9781246-9558-4399-a14d-cd382cf2ccb6" />
 </div>
+
+Within Wazuh pings will now trigger an alert inside my Snort NIDS and then sent to my Wazuh Manager. It will show up as an "IDS Event" which is generic and can later be clarified but fulfils the goal of this 
+project.
+<div align="center">
+  <img width="1191" height="141" alt="image" src="https://github.com/user-attachments/assets/3682d2f5-93b2-4a63-8183-b303d8cdf7fe" />
+</div>
+
+
+
