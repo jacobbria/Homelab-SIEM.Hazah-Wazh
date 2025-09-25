@@ -33,4 +33,4 @@ With that something came to mind.
   <img width="1352" height="742" alt="image" src="https://github.com/user-attachments/assets/8b3f7ba0-1aad-4672-ab18-c3b76e4d1e98" />
 </div>
 New plan: use Snort as an IDS for Agent 1. With already recognized SIDs its either possible to create a new rule in Wazuh or, possibly, already existing configurations exist like with <a href="https://wazuh.com/resources/blog/emulation-of-attack-techniques-and-detection-with-wazuh/sysmonconfig.xml">Sysmon</a>
-I document my time getting snort ready <a href="">here</a>
+I document my time getting snort ready <a href="">here</a>. Snort is now sending logged alerts to Wazuh as confirmed by checking the archives on the manager. 
